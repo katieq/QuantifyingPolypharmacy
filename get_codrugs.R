@@ -4,8 +4,8 @@
 
 library(readr)
 
-drugs_1s = readr::read_tsv("db_publish2/db_drugs_1s.tsv")
-drugs_2s = readr::read_tsv("db_publish2/db_drugs_2s.tsv")
+drugs_1s = readr::read_tsv("https://datadryad.org/bitstream/handle/10255/dryad.158543/db_drugs_1s.tsv")
+drugs_2s = readr::read_tsv("https://datadryad.org/bitstream/handle/10255/dryad.158544/db_drugs_2s.tsv")
 
 # Define drug_of_interest: (For example: metformin, oxycodone)
 drug_of_interest = "metformin"
